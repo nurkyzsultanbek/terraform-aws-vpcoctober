@@ -1,7 +1,7 @@
 # terraform-aws-vpcoctober
 ```hcl
 module "vpc" {
-    source = "nurkyzsultanbek/vpcoctober/aws""
+    source = "nurkyzsultanbek/vpcoctober/aws"
     version = "0.0.3"
     region = "us-east-2"
     vpc_cidr = "10.0.0.0/16"
